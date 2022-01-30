@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subindo repositório local para Github</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <h1>Tutorial</h1>
+    <h2>1- Acesse github.com, faça o login com sua conta.</h2>
+    <h2>2- Na aba repository, clique em new</h2>
+    <img src="img/newRepository.png" alt="Criando novo repositório" width=800 height=400>
+    <h2>3- No campo indicado na imagem, entre com o nome do repositório. Em seguinda clique em Create Repository.</h2>
+    <img src="img/nameRepository.png" alt="Nomeando o repositório" width=800 height=400>
+    <h2>4- Guarde o link https gerado pelo Github como na imagem abaixo.</h2>
+    <img src="img/https.png" alt="link https" width=800 height=400>
+    <h2>5- Abra o Git Bash ou terminal na pasta onde está o seu projeto.</h2>
+    <h2>6- Digite o seguinte comando abaixo para criar o arquivo README.md</h2>
+    <h3>echo "# exemplo de texto no README.md" >> README.md</h3>
+    <h2>7- Inicie a pasta como um repositório do Git através do comando:</h2>
+    <h3>git init</h3>
+    <h2>8- Em seguida, adicione os arquivos de configuração para preparar o commit:</h2>
+    <h3>git add .</h3>
+    <h2>9- Adicione o arquivo readme criando no passo 6 com o comando:<h2>
+    <h3>git add README.md</h3>
+    <h2>10- Crie um novo commit para os arquivos que irá subir para o repositório:</h2>
+    <h3>git commit -m "Primeiro commit"</h3>
+    <h2>11- Suba seus arquivos utilizando a URL gerada no passo 4 no seguinte comando:</h2>
+    <h3>git remote add origin URL-GERADA-PELO-PASSO-4-AQUI</h3>
+    <h2>12- Autorize o upload com seu login e senha:</h2>
+    <h3>git push -u origin master</h3><br>
+    <img src="img/userGit.png" alt="User do Github" width=400 height=200>
+
+
+    
+</body>
+</html>
